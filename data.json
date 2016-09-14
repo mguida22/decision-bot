@@ -1,0 +1,16 @@
+{
+  "responses": [
+    "You should {0}",
+    "Definitely {0}",
+    "I think it'd be best to {0}",
+    "Why don't you {0}",
+    "I choose {0}!",
+    "{0} is the best option"
+  ],
+  "failure_responses": [
+    "That's up to you",
+    "I can't make that decision for you!"
+  ],
+  "start_codes": ["JJ", "JJR", "JJS", "NN", "NNS", "NNP", "NNPS", "VB", "VBD", "VBG", "VBN", "VBP", "VBZ"],
+  "stop_codes": ["CC", ".", ","]
+}

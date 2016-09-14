@@ -1,0 +1,5 @@
+__pycache__/
+instance/
+.webassets-cache
+.env
+venv/
