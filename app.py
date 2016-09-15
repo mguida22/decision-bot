@@ -125,3 +125,7 @@ def test():
         return decide(request.args.get('q'))
     else:
         return abort(400)
+
+if __name__ == '__main__':
+    port = os.environ.get('PORT', 5000)
+    app.run(host='127.0.0.1', port=port)
